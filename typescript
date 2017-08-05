@@ -1,0 +1,139 @@
+Script started on Sat 05 Aug 2017 10:17:13 AM PDT
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[00m$ cd scr ipts/
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio/scripts[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio/scripts [00m$ ls
+app.js  raw.js
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio/scripts[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio/scripts [00m$ rm app.js 
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio/scripts[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio/scripts [00m$ ls
+raw.js
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio/scripts[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio/scripts [00m$ cd ../
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[00m$ mv app .js scripts/
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[00m$ ls
+[0m[01;34massets[0m  index.html  LICENSE  README.md  [01;34mscripts[0m  [01;34mstyles[0m  typescript
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[00m$ git st atus
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mdeleted:    app.js[m
+	[31mmodified:   index.html[m
+	[31mdeleted:    style.css[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mscripts/[m
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[00m$ git ad d .
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[00m$ git co mmit0[K -m "added[K[K[K[K[Kfleseh[K[Khed out blog [K[K[K[K[Kapp.js and raw.js using prototypes and constructor function s." 
+[master 05f208b] fleshed out app.js and raw.js using prototypes and constructor functions.
+ 6 files changed, 65 insertions(+), 46 deletions(-)
+ delete mode 100644 app.js
+ create mode 100644 scripts/app.js
+ create mode 100644 scripts/raw.js
+ delete mode 100644 style.css
+ create mode 100644 typescript
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[00m$ git pi [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu sh origin master
+Username for 'https://github.com': rowenscout
+Password for 'https://rowenscout@github.com': 
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 1.74 KiB | 0 bytes/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/RowenScout/301n8portfolio.git
+   74ce989..05f208b  master -> master
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[00m$ ls
+[0m[01;34massets[0m  index.html  LICENSE  README.md  [01;34mscripts[0m  [01;34mstyles[0m  typescript
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[00m$ cd[K[Katom . [A
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/301n8portfolio[00m$ gotola bs
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs[00m$ ls
+[0m[01;34m01-mobile-first[0m        [01;34m03-jquery_with_events[0m  [01;34m05-form_workshop[0m
+[01;34m02-jquery_and_the_DOM[0m  [01;34m04-html_templating[0m     [01;34m301n8portfolio[0m
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs[00m$ 04[K5[K[K04[K5-form_workshop/
+bash: 05-form_workshop/: Is a directory
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs[00m$ cd 05-form_workshop/
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop[00m$ ls
+PORTFOLIO-ASSIGNMENT.md  PULL_REQUEST_TEMPLATE.md  [0m[01;34mstarter-code[0m
+[01;35mpreview.png[0m              README.md
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop[00m$ cd s tarter-code/
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starter-code[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starteer-code[00m$ ls
+index.html  new.html  [0m[01;34mscripts[0m  [01;34mstyles[0m  [01;34mvendor[0m
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starter-code[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starteer-code[00m$ atom .
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starter-code[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starteer-code[00m$ grep -r "compile"
+[35m[Kscripts/articleView.js[m[K[36m[K:[m[K  var template = Handlebars.[01;31m[Kcompile[m[K($('#article-template').html());
+[35m[Kscripts/article.js[m[K[36m[K:[m[K  var template = Handlebars.[01;31m[Kcompile[m[K($('#article-template').text());
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starter-code[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starteer-code[00m$ cd ../04[K[K
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop[00m$ ls
+PORTFOLIO-ASSIGNMENT.md  PULL_REQUEST_TEMPLATE.md  [0m[01;34mstarter-code[0m
+[01;35mpreview.png[0m              README.md
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop[00m$ cd[K[Kcd . ./04-html_templating/
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating[00m$ ls [A
+PORTFOLIO-ASSIGNMENT.md  PULL_REQUEST_TEMPLATE.md  README.md  [0m[01;34mstarter-code[0m
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating[00m$ cd  starter-code/
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating/starter-code[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating/starrter-code[00m$ ls
+index.html  [0m[01;34mscripts[0m  [01;34mstyles[0m  [01;34mvendor[0m
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating/starter-code[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating/starrter-code[00m$ atom .
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating/starter-code[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating/starrter-code[00m$ google-chrome$[K&
+[1] 21671
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating/starter-code[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating/starrter-code[00m$ [21671:21705:0805/102547.797023:ERROR:cast_crl.cc(357)] No supported version of revocation data.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, https://cdn.shopify.com/s/assets/themes_support/api.jquery-0ea851da22ae87c0290f4eeb24bc8b513ca182f3eb721d147c009ae0f5ce14f9.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, https://cdn.shopify.com/s/assets/themes_support/api.jquery-0ea851da22ae87c0290f4eeb24bc8b513ca182f3eb721d147c009ae0f5ce14f9.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+^C
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating/starter-code[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/04-html_templating/starrter-code[00m$ cd ../../05-form_workshop/starter-code/
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starter-code[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starteer-code[00m$ atom .
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starter-code[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starteer-code[00m$ [21740:21740:0805/103958.196645:ERROR:sync_control_vsync_provider.cc(64)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[21671:21705:0805/112855.511477:ERROR:cast_crl.cc(357)] No supported version of revocation data.
+[21671:21705:0805/120924.019153:ERROR:cast_crl.cc(357)] No supported version of revocation data.
+^C
+]0;ro@doggo: ~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starter-code[01;32mro@doggo[00m:[01;34m~/codefellows/301/lab-assignments/my-forked-labs/05-form_workshop/starteer-code[00m$ portfolio 
+total 44
+drwxrwxr-x 6 ro ro 4096 Aug  2 12:28 [0m[01;34m.[0m
+drwxrwxr-x 5 ro ro 4096 Jul 26 10:21 [01;34m..[0m
+drwxrwxr-x 2 ro ro 4096 Aug  2 12:23 [01;34massets[0m
+-rw-rw-r-- 1 ro ro   13 Jul 26 10:33 .eslintignore
+-rw-rw-r-- 1 ro ro  814 Jul 26 10:32 .eslintrc
+drwxrwxr-x 8 ro ro 4096 Aug  5 09:40 [01;34m.git[0m
+-rw-rw-r-- 1 ro ro  191 Jul 26 10:28 .gitignore
+-rw-rw-r-- 1 ro ro 2076 Aug  2 18:43 index.html
+-rw-rw-r-- 1 ro ro  928 Jul 26 10:29 readme.md
+drwxrwxr-x 2 ro ro 4096 Aug  2 12:28 [01;34mscripts[0m
+drwxrwxr-x 2 ro ro 4096 Aug  2 11:34 [01;34mstyles[0m
+]0;ro@doggo: ~/codefellows/301/portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/portfolio[00m$ [1:17:0805/121104.538832:ERROR:adm_helpers.cc(62)] Failed to query stereo recording.
+Invalid SOS parameters for sequential JPEG
+Invalid SOS parameters for sequential JPEG
+Invalid SOS parameters for sequential JPEG
+[21671:21705:0805/122712.711972:ERROR:cast_crl.cc(357)] No supported version of revocation data.
+^C
+]0;ro@doggo: ~/codefellows/301/portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/portfolio[00m$ ls
+[0m[01;34massets[0m  index.html  readme.md  [01;34mscripts[0m  [01;34mstyles[0m
+]0;ro@doggo: ~/codefellows/301/portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/portfolio[00m$ git checkout -b "master"
+Switched to a new branch 'master'
+]0;ro@doggo: ~/codefellows/301/portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/portfolio[00m$ git add .
+]0;ro@doggo: ~/codefellows/301/portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/portfolio[00m$ git commit -m[K[K[K[K[K[K[K[K[K[K[K[K[Kgit pull u[Korigin wireframe 
+remote: Counting objects: 13, done.[K
+remote: Compressing objects:  16% (1/6)   [Kremote: Compressing objects:  33% (2/6)   [Kremote: Compressing objects:  50% (3/6)   [Kremote: Compressing objects:  66% (4/6)   [Kremote: Compressing objects:  83% (5/6)   [Kremote: Compressing objects: 100% (6/6)   [Kremote: Compressing objects: 100% (6/6), done.[K
+remote: Total 13 (delta 6), reused 13 (delta 6), pack-reused 0[K
+Unpacking objects:   7% (1/13)   Unpacking objects:  15% (2/13)   Unpacking objects:  23% (3/13)   Unpacking objects:  30% (4/13)   Unpacking objects:  38% (5/13)   Unpacking objects:  46% (6/13)   Unpacking objects:  53% (7/13)   Unpacking objects:  61% (8/13)   Unpacking objects:  69% (9/13)   Unpacking objects:  76% (10/13)   Unpacking objects:  84% (11/13)   Unpacking objects:  92% (12/13)   Unpacking objects: 100% (13/13)   Unpacking objects: 100% (13/13), done.
+From https://github.com/RowenScout/portfolio
+ * branch            wireframe  -> FETCH_HEAD
+   3740f16..f4bc2a9  wireframe  -> origin/wireframe
+Updating 4132c51..f4bc2a9
+Fast-forward
+ index.html      | 24 [32m++++++++++++++[m[31m----------[m
+ scripts/app.js  | 26 [32m++++++++++++++[m[31m------------[m
+ styles/base.css |  3 [32m+++[m
+ 3 files changed, 31 insertions(+), 22 deletions(-)
+]0;ro@doggo: ~/codefellows/301/portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/portfolio[00m$ ls
+[0m[01;34massets[0m  index.html  readme.md  [01;34mscripts[0m  [01;34mstyles[0m
+]0;ro@doggo: ~/codefellows/301/portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/portfolio[00m$ git checkout 0b[K[K-b :[K"master"
+fatal: A branch named 'master' already exists.
+]0;ro@doggo: ~/codefellows/301/portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301/portfolio[00m$ git checkout master
+Already on 'master'
+]0;ro@doggo: ~/codefellows/301/portfolio[01;32mro@doggo[00m:[01;34m~/codefellows/301
