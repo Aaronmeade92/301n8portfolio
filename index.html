@@ -3,23 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>301 Portfolio</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/module.css">
     <div class="title">
-      <h1>{{title}}</h1>
     </div>
-    <ul>
-      <li><a href="https://github.com/Aaronmeade92">My github repo</a></li>
-      <li><a href="https://www.linkedin.com/feed/?trk=">My LinkedIn</a></li>
-    </ul>
+    <script id="entry-template" type="text/x-handlebars-template">
+      <div class="entry" data-category={{category}}>
+        <h1>{{title}}</h1>
+        <h2>{{category}}</h2>
+        <p>{{body}}</p>
+      </div>
+    </script>
   </head>
-  <body
-  <div class="info">
-
-
+  <body id="blogs">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="scripts/raw.js"></script>
+    <script type="text/javascript" src="scripts/app.js"></script>
   </body>
-  <script src="http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-v4.0.10.js"></script>
-  <script src="">https://code.jquery.com/jquery-3.2.1.js</script>
-  <script type="text/javascript" src="scripts/raw.js"></script>
-  <script type="text/javascript" src="scripts/app.js"></script>
 
-  <link rel="stylesheet" href="styles/base.css">
+
 </html>
