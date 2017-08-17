@@ -25,3 +25,13 @@ blogs.forEach(function(blog) {
   $('#blogs').append(blog.toHtml());
   // var theTemplate = Handlebars.compile(theTemplateScript);
 });
+
+Blog.fetchAll = function() {
+  if (localStorage.rawData) {
+    Blog.loadAll(JSON.parse(localStorage.rawData));
+    
+
+  } else {
+
+  }
+}
