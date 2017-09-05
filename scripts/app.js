@@ -29,7 +29,7 @@ blogs.forEach(function(blog) {
 Blog.fetchAll = function() {
   if (localStorage.rawData) {
     Blog.loadAll(JSON.parse(localStorage.rawData));
-    
+
 
   } else {
 
