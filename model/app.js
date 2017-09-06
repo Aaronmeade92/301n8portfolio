@@ -21,9 +21,6 @@ rawData.map(function(blogObj){
   blogs.push(new Blog(blogObj))
 });
 
-// var blogTitles = title.reduce(function(,title));
-
-
 blogs.map(function(blog) {
   $('#blogs').append(blog.toHtml());
 
