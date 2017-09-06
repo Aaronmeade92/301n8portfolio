@@ -17,11 +17,14 @@ var template = Handlebars.compile(source);
 return template(this);
 };
 
-rawData.forEach(function(blogObj) {
-  blogs.push(new Blog(blogObj));
+rawData.map(function(blogObj){
+  blogs.push(new Blog(blogObj))
 });
 
-blogs.forEach(function(blog) {
+// var blogTitles = title.reduce(function(,title));
+
+
+blogs.map(function(blog) {
   $('#blogs').append(blog.toHtml());
 
 });
@@ -29,9 +32,6 @@ blogs.forEach(function(blog) {
 Blog.fetchAll = function() {
   if (localStorage.rawData) {
     Blog.loadAll(JSON.parse(localStorage.rawData));
-
-  }
-  else {
 
   }
 };

@@ -10,8 +10,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, function(){
-  
+
   console.log('This port is ' + PORT);
 })
 
-app.use(express.static('./'));
+app.use(express.static('./views'));
