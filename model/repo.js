@@ -13,7 +13,7 @@ url: 'https://api.github.com/aaronmeade92/repos'
 method:'GET'
 headers: {'Authorization': `token ${githubToken}`
       }
-    })
+    }).then{response => { console.log(response);}}
   }
 });
 
